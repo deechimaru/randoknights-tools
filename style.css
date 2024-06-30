@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'RandoKnights'; /*a name to be used later*/
+    src: url('./assets/press-start.ttf'); /*URL to font*/
+}
+
+*{
+    font-family: 'RandoKnights';
+    color: white;
+}
+
+main{
+    font-size: 14px;
+}
+
+header{
+    text-align: center;
+}
+
+#site-footer{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 9px;
+}
+
+body, select{
+    background-color: #282828;
+}
+
+select{
+    border: 0;
+    padding: 2px;
+}
+
+input[type=checkbox]{
+    width: 16px;
+    height: 16px;
+}
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+
+
+tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+tbody>tr>td:first-child{
+    padding-left: 6px;
+}
+
+tbody>tr:nth-child(2n), thead{
+    /*background-color: #aaa*/
+}
+
+thead{
+    background-color: #222222
+}
+
+tbody>tr>td:nth-child(1){
+    width: 170px;
+}
+
+tbody>tr>td:nth-child(2), tbody>tr>td:nth-child(2)>select{
+    width: 170px;
+}
+
+tbody>tr>td:nth-child(3), tbody>tr>td:nth-child(3)>select{
+    width: 175px;
+}
+
+tbody>tr>td:nth-child(4), tbody>tr>td:nth-child(4)>select{
+    width: 275px;
+}
+
+tbody>tr>td:nth-child(5){
+    width: 175px;
+}
+
+tbody>tr>td:nth-child(6){
+    width: 55px;
+    text-align: center;
+}
+
+.knight-extra{
+    margin-top: 5px;
+}
+
+.knight-extra>label{
+    display: inline-block;
+    width: 145px;
+}
+
+#knight-visualizer{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: #b0aeae;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+#knight-visualizer>img{
+    position: absolute;
+    transform: scale(2.5, 2.5);
+    top: 70px;
+    left: 70px;
+}
+
+#knight-visual-body{
+    z-index: 400;
+}
+
+#knight-visual-face{
+    z-index: 400;
+}
+
+#knight-visual-helmet{
+    z-index: 500;
+}
+
+#knight-visual-armor{
+    z-index: 500;
+}
+
+#knight-visual-main{
+    z-index: 998;
+}
+
+#knight-visual-mainenchant{
+    z-index: 999;
+}
+
+#knight-visual-offhand{
+    z-index: 998;
+}
+
+#knight-visual-offenchant{
+    z-index: 999;
+}
+
+#knight-visual-cape{
+    z-index: 0;
+}
+
+#knight-visual-pet{
+    z-index: 999;
+}

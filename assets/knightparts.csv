@@ -1,0 +1,448 @@
+keys,en,fr
+KNIGHT_BODY_0_0,Natural,Naturel
+KNIGHT_BODY_0_1,Natural,Naturel
+KNIGHT_BODY_0_2,Natural,Naturel
+KNIGHT_BODY_0_3,Natural,Naturel
+KNIGHT_BODY_0_4,Natural,Naturel
+KNIGHT_BODY_0_5,Natural,Naturel
+KNIGHT_BODY_0_6,Natural,Naturel
+KNIGHT_BODY_0_7,Natural,Naturel
+KNIGHT_BODY_0_8,Natural,Naturel
+KNIGHT_BODY_0_9,Natural,Naturel
+KNIGHT_BODY_0_10,Natural,Naturel
+KNIGHT_BODY_0_11,Natural,Naturel
+KNIGHT_BODY_0_12,Natural,Naturel
+KNIGHT_BODY_0_13,Natural,Naturel
+KNIGHT_BODY_0_14,Natural,Naturel
+KNIGHT_BODY_1_0,Blue,Bleu
+KNIGHT_BODY_1_1,Turquoise,Turquoise
+KNIGHT_BODY_1_2,Dark Gray,Gris Fonce
+KNIGHT_BODY_1_3,Lavender,Lavende
+KNIGHT_BODY_1_4,Gray,Gris
+KNIGHT_BODY_1_5,Apple,Vert Pomme
+KNIGHT_BODY_1_6,Purple,Violet
+KNIGHT_BODY_1_7,Marine Blue,Bleu Marine
+KNIGHT_BODY_1_8,Red,Rouge
+KNIGHT_BODY_1_9,Light Blue,Bleu Clair
+KNIGHT_BODY_1_10,Green,Vert
+KNIGHT_BODY_2_0,Reptilian,Reptile
+KNIGHT_BODY_2_1,Ghost,Fantome
+KNIGHT_BODY_2_2,Blood,Sanglant
+KNIGHT_BODY_2_3,Dog,Chien
+KNIGHT_BODY_2_4,Sick Albino,Albino Malade
+KNIGHT_BODY_2_5,Mummy,Momie
+KNIGHT_BODY_2_6,Black Cat,Chat Noir
+KNIGHT_BODY_2_7,Slimy Skin,Peau Visqueuse
+KNIGHT_BODY_2_8,Dead,Mort
+KNIGHT_BODY_2_1000,Snow,Neige
+KNIGHT_BODY_3_0,Divine White,Blanc Divin
+KNIGHT_BODY_3_1,Rare Golden,Dore Radieux
+KNIGHT_BODY_3_2,Shadow Black,Noir Obscur
+KNIGHT_BODY_3_3,Robot,Robot
+KNIGHT_BODY_3_4,Wolf,Loup
+KNIGHT_BODY_4_0,Exotic Lint,Peluche exotique
+KNIGHT_BODY_4_1,Angel,Ange
+KNIGHT_BODY_4_2,Devil,Demon
+KNIGHT_FACE_0_0,Worried,Inquiet
+KNIGHT_FACE_0_1,Contempt,Meprisant
+KNIGHT_FACE_0_2,Small Smile,Petit Sourire
+KNIGHT_FACE_0_3,Contempt (Old),Meprisant (Vieux)
+KNIGHT_FACE_0_4,Happy,Heureux
+KNIGHT_FACE_0_5,Gray Beard,Barbe Grise
+KNIGHT_FACE_0_6,Fake Dumb,Faux Idiot
+KNIGHT_FACE_0_7,Prankster,Farceur
+KNIGHT_FACE_0_8,Snoring,Ronflant
+KNIGHT_FACE_0_9,Suprised,Surpris
+KNIGHT_FACE_0_10,Fmall Fmile,Fouriant
+KNIGHT_FACE_0_11,Fake Smile,Faux Sourire
+KNIGHT_FACE_0_12,Unhappy,Mecontant
+KNIGHT_FACE_0_13,Yawning,Baillement
+KNIGHT_FACE_0_14,Determined,Determine
+KNIGHT_FACE_0_15,Wink,Clin d'Oeil
+KNIGHT_FACE_0_16,Calm,Calme
+KNIGHT_FACE_0_17,Small Mustache,Petite Moustache
+KNIGHT_FACE_0_18,Flirty,Dragueur
+KNIGHT_FACE_0_19,Astonished,Etonne
+KNIGHT_FACE_0_20,Delighted,Ravi
+KNIGHT_FACE_0_21,Sick,Malade
+KNIGHT_FACE_0_22,Serious,Serieu
+KNIGHT_FACE_0_23,Angry,En Colere
+KNIGHT_FACE_0_24,Whistling,Siffleur
+KNIGHT_FACE_0_25,Confident,Confiant
+KNIGHT_FACE_0_26,Small Shock,Petit Choc
+KNIGHT_FACE_0_27,Singing,Chantant
+KNIGHT_FACE_0_28,Frowning,Renfrogne
+KNIGHT_FACE_0_29,Sly,Sournois
+KNIGHT_FACE_0_30,Chocked,Choque
+KNIGHT_FACE_0_31,Drooling,Baveur
+KNIGHT_FACE_0_32,Joyful,Joyeux
+KNIGHT_FACE_0_1000,Carrot and Pebbles,Carotte et Cailloux
+KNIGHT_FACE_1_0,Emotionless,Sans emotion
+KNIGHT_FACE_1_1,Flirtatious,Coquet
+KNIGHT_FACE_1_2,Piercings,Piercings
+KNIGHT_FACE_1_3,Heterochromia,Heterochromie
+KNIGHT_FACE_1_4,Light Makeup,Leger Makeup
+KNIGHT_FACE_1_5,Blind,Aveugle
+KNIGHT_FACE_1_6,One-Eyed,Borgne
+KNIGHT_FACE_1_7,Crying,Pleurnicheur
+KNIGHT_FACE_1_8,Mute Crying,Triste
+KNIGHT_FACE_1_9,Dead,Mort
+KNIGHT_FACE_1_10,Dwarf,Nain
+KNIGHT_FACE_1_11,Big Mustache,Grosse Moustache
+KNIGHT_FACE_1_12,Old White Beard,Vieille Barbe Blanche
+KNIGHT_FACE_1_13,Mono Brow,Mono-Sourcil
+KNIGHT_FACE_1_14,Shouting,Hurleur
+KNIGHT_FACE_1_15,Sleepy,Fatigue
+KNIGHT_FACE_1_16,Furious,Furieux
+KNIGHT_FACE_1_17,Black lips,Levres noires
+KNIGHT_FACE_1_18,Side Glance,Regard de Cote
+KNIGHT_FACE_1_19,Simple Mustache,Moustache Simple
+KNIGHT_FACE_1_20,Greedy,Avare
+KNIGHT_FACE_2_0,Cute Eyes,Jolis Yeux
+KNIGHT_FACE_2_1,Clown,Clown
+KNIGHT_FACE_2_2,Lizard,Lezard
+KNIGHT_FACE_2_3,Known Wizard,Sorcier Connu
+KNIGHT_FACE_2_4,Evil,Malfaisant
+KNIGHT_FACE_2_5,Pigman,Homme-Cochon
+KNIGHT_FACE_2_6,Cyclops,Cyclope
+KNIGHT_FACE_2_7,Scarface,Scarface
+KNIGHT_FACE_2_8,Werewolf,Loup-garou
+KNIGHT_FACE_2_9,Alien,Alien
+KNIGHT_FACE_2_10,Happy Cyclops,Cyclope Heureux
+KNIGHT_FACE_2_11,Corrupt,Corruption
+KNIGHT_FACE_2_12,Vampire,Vampire
+KNIGHT_FACE_2_13,Good Dog,Bon Chien
+KNIGHT_FACE_2_14,Frog,Grenouille
+KNIGHT_FACE_2_15,Dead,Mort
+KNIGHT_FACE_2_1000,Elf,Lutin
+KNIGHT_FACE_3_0,Monster,Monstre
+KNIGHT_FACE_3_1,Orc,Orc
+KNIGHT_FACE_3_2,Medium,Medium
+KNIGHT_FACE_3_3,Robot,Robot
+KNIGHT_FACE_3_4,Cat,Chat
+KNIGHT_FACE_3_5,Disfigured,Defigure
+KNIGHT_FACE_4_0,Light Eyes,Yeux Lumineux
+KNIGHT_FACE_4_1,Mouth Hole,Trou Beant
+KNIGHT_FACE_4_2,Hidden Evil,Demon Cache
+KNIGHT_FACE_4_3,Famous Snail,Escargot Connu
+KNIGHT_FACE_4_1000,Magic White Beard,Barbe Blanche Magique
+KNIGHT_ARMOR_0_0,Leather,Cuir
+KNIGHT_ARMOR_0_1,Tanned Leather,Cuir Tanne
+KNIGHT_ARMOR_0_2,Barbarian,Barbare
+KNIGHT_ARMOR_0_3,Barbarian (Bones),Barbare Osseuse
+KNIGHT_ARMOR_1_0,Copper,Cuivre
+KNIGHT_ARMOR_1_1,Copper (Heavy),Cuivre (Lourd)
+KNIGHT_ARMOR_1_2,Iron,Fer
+KNIGHT_ARMOR_1_3,Iron (Heavy),Fer (Lourd)
+KNIGHT_ARMOR_2_0,Bronze,Bronze
+KNIGHT_ARMOR_2_1,Bronze (Heavy),Bronze (Lourd)
+KNIGHT_ARMOR_2_2,Silver,Argent
+KNIGHT_ARMOR_2_3,Silver (Heavy),Argent (Lourd)
+KNIGHT_ARMOR_3_0,Gold,Or
+KNIGHT_ARMOR_3_1,Gold (Heavy),Or (Lourd)
+KNIGHT_ARMOR_3_2,Mithril,Mithril
+KNIGHT_ARMOR_3_3,Mithril (Heavy),Mithirl (Lourd)
+KNIGHT_ARMOR_4_0,Orichalcum,Orichalque
+KNIGHT_ARMOR_4_1,Orichalcum (Heavy),Orichalque (Lourd)
+KNIGHT_ARMOR_4_2,Obsidian,Obsidienne
+KNIGHT_ARMOR_4_3,Obsidian (Heavy),Obsidienne (Lourd)
+KNIGHT_SPECIAL_ARMOR_0_0,Baker Apron,Tablier de Boulanger
+KNIGHT_SPECIAL_ARMOR_0_1,Blacksmith Apron,Tablier de Forge
+KNIGHT_SPECIAL_ARMOR_0_2,Rotten Clothes,Vetements Pourris
+KNIGHT_SPECIAL_ARMOR_0_1000,Compact Snow,Neige Compacte
+KNIGHT_SPECIAL_ARMOR_1_0,Minstrel Outfit,Tenue de Menestrel
+KNIGHT_SPECIAL_ARMOR_1_1,Wizard Robe,Robe de Sorcier
+KNIGHT_SPECIAL_ARMOR_1_2,Filibuster Outfit,Tenue de Flibustier
+KNIGHT_SPECIAL_ARMOR_2_0,Oracle Robe,Robe de l'Oracle
+KNIGHT_SPECIAL_ARMOR_2_1,Light Chestplate,Plastron Leger
+KNIGHT_SPECIAL_ARMOR_2_2,EatAll Chestplate,Plastron MangeTout
+KNIGHT_SPECIAL_ARMOR_2_1000,Xmas Elf Outfit,Tenue de Lutin
+KNIGHT_SPECIAL_ARMOR_3_0,Robot Armor,Armure Robotique
+KNIGHT_SPECIAL_ARMOR_3_1,Stealth Armor,Armure Furtive
+KNIGHT_SPECIAL_ARMOR_4_0,Divine Outfit,Tenue Divine
+KNIGHT_SPECIAL_ARMOR_4_1,Devil's Mutation,Mutation Demonique
+KNIGHT_SPECIAL_ARMOR_4_2,Slimy Slug,Limace Visqueuse
+KNIGHT_SPECIAL_ARMOR_4_1000,Xmas Outfit,Tenue de Noel
+KNIGHT_HELMET_0_0,Leather,Cuir
+KNIGHT_HELMET_0_1,Tanned Leather,Cuir Tanne
+KNIGHT_HELMET_0_2,Barbarian,Barbare
+KNIGHT_HELMET_0_3,Barbarian (Bones),Barbare Osseuse
+KNIGHT_HELMET_1_0,Copper,Cuivre
+KNIGHT_HELMET_1_1,Copper (Heavy),Cuivre (Lourd)
+KNIGHT_HELMET_1_2,Iron,Fer
+KNIGHT_HELMET_1_3,Iron (Heavy),Fer (Lourd)
+KNIGHT_HELMET_2_0,Bronze,Bronze
+KNIGHT_HELMET_2_1,Bronze (Heavy),Bronze (Lourd)
+KNIGHT_HELMET_2_2,Silver,Argent
+KNIGHT_HELMET_2_3,Silver (Heavy),Argent (Lourd)
+KNIGHT_HELMET_3_0,Gold,Or
+KNIGHT_HELMET_3_1,Gold (Heavy),Or (Lourd)
+KNIGHT_HELMET_3_2,Mithril,Mithril
+KNIGHT_HELMET_3_3,Mithril (Heavy),Mithirl (Lourd)
+KNIGHT_HELMET_4_0,Orichalcum,Orichalque
+KNIGHT_HELMET_4_1,Orichalcum (Heavy),Orichalque (Lourd)
+KNIGHT_HELMET_4_2,Obsidian,Obsidienne
+KNIGHT_HELMET_4_3,Obsidian (Heavy),Obsidienne (Lourd)
+KNIGHT_SPECIAL_HELMET_0_0,Chef Hat,Chapeau du Chef
+KNIGHT_SPECIAL_HELMET_0_1,Shiny Bald Head,Chauve Luisant
+KNIGHT_SPECIAL_HELMET_0_2,Cubic hairstyle,Coiffure Cubique
+KNIGHT_SPECIAL_HELMET_0_1000,Top Hat,Haut de Forme
+KNIGHT_SPECIAL_HELMET_1_0,Joker Hat,Chapeau de Joker
+KNIGHT_SPECIAL_HELMET_1_1,Hat of Choice,Chapeau du Choix
+KNIGHT_SPECIAL_HELMET_1_2,Pirate Tricorn,Tricorne de Pirate
+KNIGHT_SPECIAL_HELMET_2_0,Cat Ears,Oreilles de Chat
+KNIGHT_SPECIAL_HELMET_2_1,Dog Ears,Oreilles de Chien
+KNIGHT_SPECIAL_HELMET_2_2,Oracle Veil,Voile de l'Oracle
+KNIGHT_SPECIAL_HELMET_2_3,Lizard Horns,Cornes de Lezard
+KNIGHT_SPECIAL_HELMET_2_4,Orc Ears,Oreilles d'Orc
+KNIGHT_SPECIAL_HELMET_2_5,EatAll Cap,Coiffe MangeTout
+KNIGHT_SPECIAL_HELMET_2_1000,Xmas Elf Hat,Bonnet de Lutin
+KNIGHT_SPECIAL_HELMET_3_0,Robot Antennas,Antennes de Robot
+KNIGHT_SPECIAL_HELMET_3_1,Wolf Ears,Oreilles de Loup
+KNIGHT_SPECIAL_HELMET_3_2,Stealth Helmet,Casque Furtif
+KNIGHT_SPECIAL_HELMET_4_0,Crown,Couronne
+KNIGHT_SPECIAL_HELMET_4_1,Aureole,Aureole
+KNIGHT_SPECIAL_HELMET_4_2,Devil's Horns,Cornes de Demon
+KNIGHT_SPECIAL_HELMET_4_3,Slimy Mutation,Mutation Visqueuse
+KNIGHT_SPECIAL_HELMET_4_1000,Xmas Hat,Bonnet de Noel
+KNIGHT_CAPE_0,Worn Cloak,Cape Usée
+KNIGHT_CAPE_1,Cloak,Cape
+KNIGHT_CAPE_2,Good Cloak,Bonne Cape
+KNIGHT_CAPE_3,Long Cloak,Cape Longue
+KNIGHT_CAPE_4,Chic Cloak,Cape Chic
+KNIGHT_CAPE_COLOR_0,Beige,Beige
+KNIGHT_CAPE_COLOR_1,Brown,Marron
+KNIGHT_CAPE_COLOR_2,Greenish,Verdatre
+KNIGHT_CAPE_COLOR_3,Dark Brown,Marron Fonce
+KNIGHT_CAPE_COLOR_4,Gray,Grise
+KNIGHT_CAPE_COLOR_5,Leather,Cuir
+KNIGHT_CAPE_COLOR_6,Light Blue,Bleu Clair
+KNIGHT_CAPE_COLOR_7,Light Green,Vert Clair
+KNIGHT_CAPE_COLOR_8,Cream,Creme
+KNIGHT_CAPE_COLOR_9,Lavender,Lavende
+KNIGHT_CAPE_COLOR_10,Brick,Brique
+KNIGHT_CAPE_COLOR_11,Pink,Rose
+KNIGHT_CAPE_COLOR_12,Red,Rouge
+KNIGHT_CAPE_COLOR_13,Blue,Bleue
+KNIGHT_CAPE_COLOR_14,Green,Verte
+KNIGHT_CAPE_COLOR_15,Yellow,Jaune
+KNIGHT_CAPE_COLOR_16,Purple,Violette
+KNIGHT_CAPE_COLOR_17,Blood,Sanglante
+KNIGHT_CAPE_COLOR_18,Orange,Orange
+KNIGHT_CAPE_COLOR_19,Cyan,Cyan
+KNIGHT_CAPE_COLOR_20,White,Blanche
+KNIGHT_CAPE_COLOR_21,Black,Noire
+KNIGHT_CAPE_COLOR_22,Golden,Doree
+KNIGHT_MAIN_0_0,Wooden Pole,Baton (Bois)
+KNIGHT_MAIN_0_1,Long Sword,Epee Longue
+KNIGHT_MAIN_0_2,Scimitar,Cimeterre
+KNIGHT_MAIN_0_3,Club,Gourdin
+KNIGHT_MAIN_0_4,Spear,Lance
+KNIGHT_MAIN_0_5,Great Sword,Epee Lourde
+KNIGHT_MAIN_1_0,Copper Sword,Epee Longue (Cuivre)
+KNIGHT_MAIN_1_1,Copper Mace,Masse d'armes (Cuivre)
+KNIGHT_MAIN_1_2,Copper Hammer,Marteau (Cuivre)
+KNIGHT_MAIN_1_3,Iron Mace,Masse d'armes (Fer)
+KNIGHT_MAIN_1_4,Iron Scourge,Fleau (Fer)
+KNIGHT_MAIN_1_5,Iron Broadsword,Epee Batarde (Fer)
+KNIGHT_MAIN_2_0,Bronze Long Sword,Epee Longue (Bronze)
+KNIGHT_MAIN_2_1,Bronze Axe,Hache (Bronze)
+KNIGHT_MAIN_2_2,Bronze Dagger,Dague (Bronze)
+KNIGHT_MAIN_2_3,Silver Long Sword,Epee Longue (Argent)
+KNIGHT_MAIN_2_4,Silver Spear,Lance (Argent)
+KNIGHT_MAIN_2_5,Silver Sai,Sai (Argent)
+KNIGHT_MAIN_3_0,Gold Hammer,Marteau (Or)
+KNIGHT_MAIN_3_1,Gold Great Sword,Epee Lourde (Or)
+KNIGHT_MAIN_3_2,Gold Long Sword,Epee Longue (Or)
+KNIGHT_MAIN_3_3,Mithril Scimitar,Cimeterre (Mithril)
+KNIGHT_MAIN_3_4,Mithril Great Sword,Epee Lourde (Mithril)
+KNIGHT_MAIN_3_5,Mithril Rapier,Rapiere (Mithril)
+KNIGHT_MAIN_4_0,Ori. Broadsword,Epee Batarde (Ori.)
+KNIGHT_MAIN_4_1,Ori. Halberd,Hallebarde (Ori.)
+KNIGHT_MAIN_4_2,Ori. Club,Gourdin (Ori.)
+KNIGHT_MAIN_4_3,Obsidian Katana,Katana (Obsidienne)
+KNIGHT_MAIN_4_4,Obsidian Scythe,Faux (Obsidienne)
+KNIGHT_MAIN_4_5,Obsidian Falchion,Falchion (Obsidienne)
+KNIGHT_SPECIAL_MAIN_0_0,Rolling Pin,Rouleau a Patisserie
+KNIGHT_SPECIAL_MAIN_0_1,Blacksmith Hammer,Marteau de Forge
+KNIGHT_SPECIAL_MAIN_0_2,Stone Sword,Epee en Pierre
+KNIGHT_SPECIAL_MAIN_0_1000,Broom,Balai
+KNIGHT_SPECIAL_MAIN_1_0,Jugglin Pin,Quille de Jonglerie
+KNIGHT_SPECIAL_MAIN_1_1,Griffin Sword,Epee du Griffon
+KNIGHT_SPECIAL_MAIN_1_2,Cutlass,Coutelas
+KNIGHT_SPECIAL_MAIN_2_0,Crystal Ball,Boule de Cristal
+KNIGHT_SPECIAL_MAIN_2_1,Masamune,Masamune
+KNIGHT_SPECIAL_MAIN_2_2,EatAll Hammer,Marteau MangeTout
+KNIGHT_SPECIAL_MAIN_2_1000,Candy Cane,Canne en Bonbon
+KNIGHT_SPECIAL_MAIN_3_0,Laser Gun,Pistolet Laser
+KNIGHT_SPECIAL_MAIN_3_1,Scepter,Sceptre
+KNIGHT_SPECIAL_MAIN_3_2,Hook Pistol,Pistolet Grapin
+KNIGHT_SPECIAL_MAIN_4_0,Holy Blade,Lame Sainte
+KNIGHT_SPECIAL_MAIN_4_1,Demonic Trident,Trident du Demon
+KNIGHT_SPECIAL_MAIN_4_2,USB Spear,Lance USB
+KNIGHT_SPECIAL_MAIN_4_1000,Xmas Bell,Cloche de Noel
+KNIGHT_OFF_0_0,Wooden Shield,Bouclier (Bois)
+KNIGHT_OFF_0_1,Wooden T. Shield,Bouclier Long (Bois)
+KNIGHT_OFF_0_2,Dagger,Dague
+KNIGHT_OFF_0_3,Club,Gourdin
+KNIGHT_OFF_0_4,Short Sword,Epee Courte
+KNIGHT_OFF_0_5,Shield,Bouclier
+KNIGHT_OFF_1_0,Copper S. Sword,Epee Courte (Cuivre)
+KNIGHT_OFF_1_1,Copper Shield,Bouclier (Cuivre)
+KNIGHT_OFF_1_2,Copper Dagger,Dague (Cuivre)
+KNIGHT_OFF_1_3,Iron Shield,Bouclier (Fer)
+KNIGHT_OFF_1_4,Iron Tower Shield,Bouclier Long (Fer)
+KNIGHT_OFF_1_5,Iron Scourge,Fleau (Fer)
+KNIGHT_OFF_2_0,Bronze T. Shield,Bouclier Long (Bronze)
+KNIGHT_OFF_2_1,Bronze Axe,Hache (Bronze)
+KNIGHT_OFF_2_2,Bronze Dagger,Dague (Bronze)
+KNIGHT_OFF_2_3,Silver Shield,Bouclier (Argent)
+KNIGHT_OFF_2_4,Silver Short Sword,Epee Courte (Argent)
+KNIGHT_OFF_2_5,Silver Sai,Sai (Argent)
+KNIGHT_OFF_3_0,Gold Shield,Bouclier (Or)
+KNIGHT_OFF_3_1,Gold Hammer,Marteau (Or)
+KNIGHT_OFF_3_2,Gold Short Sword,Epee Courte (Or)
+KNIGHT_OFF_3_3,Mithril Dagger,Dague (Mithril)
+KNIGHT_OFF_3_4,Mithril Shield,Bouclier (Mithril)
+KNIGHT_OFF_3_5,Mithril Kunai,Kunai (Mithril)
+KNIGHT_OFF_4_0,Ori. Shield,Bouclier (Ori.)
+KNIGHT_OFF_4_1,Ori. Scourge,Fleau (Ori.)
+KNIGHT_OFF_4_2,Ori. Axe,Hache (Ori.)
+KNIGHT_OFF_4_3,Obsidian Wakizashi,Wakizashi (Obsidienne)
+KNIGHT_OFF_4_4,Obsidian Sickle,Faucille (Obsidienne)
+KNIGHT_OFF_4_5,Obsidian Scimitar,Cimeterre (Obsidienne)
+KNIGHT_SPECIAL_OFF_0_0,Baguette,Baguette
+KNIGHT_SPECIAL_OFF_0_1,Pliers,Tenailles
+KNIGHT_SPECIAL_OFF_0_2,Stone Pickaxe,Pioche en Pierre
+KNIGHT_SPECIAL_OFF_0_1000,Snowball,Boule de Neige
+KNIGHT_SPECIAL_OFF_1_0,Tarot Cards,Cartes de Tarot
+KNIGHT_SPECIAL_OFF_1_1,Magic Wand,Baguette Magique
+KNIGHT_SPECIAL_OFF_1_2,Flintlock Pistol,Pistolet a Silex
+KNIGHT_SPECIAL_OFF_2_0,Tambourine,Tambourin
+KNIGHT_SPECIAL_OFF_2_1,Star Shield,Bouclier Etoile
+KNIGHT_SPECIAL_OFF_2_2,EatAll Shield,Bouclier MangeTout
+KNIGHT_SPECIAL_OFF_2_1000,Xmax Stocking,Chaussette de Noel
+KNIGHT_SPECIAL_OFF_3_0,Drill Hand,Main Perceuse
+KNIGHT_SPECIAL_OFF_3_1,Holy Grenade,Sainte Grenade
+KNIGHT_SPECIAL_OFF_3_2,Stealth Boomerang,Boomerang Furtif
+KNIGHT_SPECIAL_OFF_4_0,Holy Tome,Saint Tome
+KNIGHT_SPECIAL_OFF_4_1,Demonic Whip,Fouet Demoniaque
+KNIGHT_SPECIAL_OFF_4_2,Joystick,Manette
+KNIGHT_SPECIAL_OFF_4_1000,Xmas Hood,Hotte de Noel
+KNIGHT_ENCHANT_0_0,Durability I,Durabilite I
+KNIGHT_ENCHANT_0_1,Sharpness I,Tranchant I
+KNIGHT_ENCHANT_0_2,Water Aura I,Aura Aquatique I
+KNIGHT_ENCHANT_0_3,Fire Aura I,Aura de Feu I
+KNIGHT_ENCHANT_0_4,Thunder Aura I,Aura de Foudre I
+KNIGHT_ENCHANT_1_0,Durability II,Durabilite II
+KNIGHT_ENCHANT_1_1,Sharpness II,Tranchant II
+KNIGHT_ENCHANT_1_2,Water Aura II,Aura Aquatique II
+KNIGHT_ENCHANT_1_3,Fire Aura II,Aura de Feu II
+KNIGHT_ENCHANT_1_4,Thunder Aura II,Aura de Foudre II
+KNIGHT_ENCHANT_2_0,Durability III,Durabilite III
+KNIGHT_ENCHANT_2_1,Sharpness III,Tranchant III
+KNIGHT_ENCHANT_2_2,Water Aura III,Aura Aquatique III
+KNIGHT_ENCHANT_2_3,Fire Aura III,Aura de Feu III
+KNIGHT_ENCHANT_2_4,Thunder Aura III,Aura de Foudre III
+KNIGHT_ENCHANT_3_0,Durability IV,Durabilite IV
+KNIGHT_ENCHANT_3_1,Sharpness IV,Tranchant IV
+KNIGHT_ENCHANT_3_2,Water Aura IV,Aura Aquatique IV
+KNIGHT_ENCHANT_3_3,Fire Aura IV,Aura de Feu IV
+KNIGHT_ENCHANT_3_4,Thunder Aura IV,Aura de Foudre IV
+KNIGHT_ENCHANT_4_0,Durability V,Durabilite V
+KNIGHT_ENCHANT_4_1,Sharpness V,Tranchant V
+KNIGHT_ENCHANT_4_2,Water Aura V,Aura Aquatique V
+KNIGHT_ENCHANT_4_3,Fire Aura V,Aura de Feu V
+KNIGHT_ENCHANT_4_4,Thunder Aura V,Aura de Foudre V
+SHINY_0,No Shine,Pas d'Eclat
+SHINY_1,Silver Shine,Eclat Argente
+SHINY_2,Golden Shine,Eclat Dore
+SHINY_3,Crimson Shine,Eclat Pourpre
+SHINY_4,Dark Shine,Eclat Obscur
+COMBO_ARMOR_SET,Matching Armor,Armure Assortie
+COMBO_RARE_ARMOR_SET,Matching Armor +,Armure Assortie +
+COMBO_DUAL_ENCHANT,Twin Enchants,Duo d'Enchantements
+COMBO_EQUIPMENT_TIER,United Equipments,Equipements Unis
+COMBO_RARE_EQUIPMENT_TIER,United Equipments +,Equipements Unis +
+COMBO_SAME_NAME_TIER,United Title,Titre Uni
+COMBO_SAME_PHYSICAL_TIER,United Physical,Physique Uni
+KNIGHT_PET_0_0,Cat,Chat
+KNIGHT_PET_0_1,Dog,Chien
+KNIGHT_PET_0_2,Rabbit,Lapin
+KNIGHT_PET_0_3,Chicken,Poulet
+KNIGHT_PET_0_4,Llama,Lama
+KNIGHT_PET_0_1000,Pinguin,Pingouin
+KNIGHT_PET_0_1001,Beetle,Scarabee
+KNIGHT_PET_1_0,Snail,Escargot
+KNIGHT_PET_1_1,Slime,Slime
+KNIGHT_PET_1_2,Flower Spirit,Esprit Floral
+KNIGHT_PET_1_3,Monkey,Singe
+KNIGHT_PET_1_4,Panda,Panda
+KNIGHT_PET_1_1000,GingerBread,Pain d'Epices
+KNIGHT_PET_1_1001,Clown Fish,Poisson Clown
+KNIGHT_PET_2_0,Goblin,Goblin
+KNIGHT_PET_2_1,Ghost,Fantome
+KNIGHT_PET_2_2,Monshroom,Champimonstre
+KNIGHT_PET_2_3,Frog,Grenouille
+KNIGHT_PET_2_4,Fairy,Fee
+KNIGHT_PET_2_1000,Reindeer,Renne
+KNIGHT_PET_2_1001,Crab,Crabe
+KNIGHT_PET_3_0,Turtle,Tortue
+KNIGHT_PET_3_1,Magic Cactus,Cactus Magique
+KNIGHT_PET_3_2,EatAll,MangeTout
+KNIGHT_PET_3_3,Otter,Loutre
+KNIGHT_PET_3_4,Wolf,Loup
+KNIGHT_PET_3_1000,Present,Cadeau
+KNIGHT_PET_3_1001,Parrot,Perroquet
+KNIGHT_PET_4_0,Golem,Golem
+KNIGHT_PET_4_1,Lizard,Lezard
+KNIGHT_PET_4_2,Pixelchu,Pixelchu
+KNIGHT_PET_4_3,Deedee,Deedee
+KNIGHT_PET_4_4,Godzolla,Godzolla
+KNIGHT_PET_4_1000,Winter Ent,Ent d'Hiver
+KNIGHT_PET_4_1001,Tiny Sun,Soleil Nain
+KNIGHT_NOSET,No Set,Pas de Set
+KNIGHT_SET_0,Baker,Boulanger
+KNIGHT_SET_1,Joker,Joker
+KNIGHT_SET_2,Medium,Oracle
+KNIGHT_SET_3,Robot,Robot
+KNIGHT_SET_4,Angel,Ange
+KNIGHT_SET_5,Devil,Demon
+KNIGHT_SET_6,Cat,Chat
+KNIGHT_SET_7,Dog,Chien
+KNIGHT_SET_8,Wolf,Loup
+KNIGHT_SET_9,Lizard,Lezard
+KNIGHT_SET_10,Orc,Orc
+KNIGHT_SET_11,King,Roi
+KNIGHT_SET_12,Momochang,Momochang
+KNIGHT_SET_13,BlackSmith,Forgeron
+KNIGHT_SET_14,Wizard,Sorcier
+KNIGHT_SET_15,Frog,Gren
+KNIGHT_SET_16,Midas,Midas
+KNIGHT_SET_17,Night Hero,Hero Nocturne
+KNIGHT_SET_18,Snowman,Golem de Neige
+KNIGHT_SET_19,Zombie,Zombie
+KNIGHT_SET_20,Xmas Elf,Lutin de Noel
+KNIGHT_SET_21,Santa Claus,Pere Noel
+KNIGHT_SET_22,Pirate,Pirate
+KNIGHT_SET_23,EatAll Panoply,Pano. MangeTout
+KNIGHT_ARMOR_SET_0_0,Leather Set,Set de Cuir
+KNIGHT_ARMOR_SET_0_1,Tanned Leather Set,Set de Cuir Tanne
+KNIGHT_ARMOR_SET_0_2,Barbarian Set,Set Barbare
+KNIGHT_ARMOR_SET_0_3,Bone Barbarian Set,Set Barbare Osseux
+KNIGHT_ARMOR_SET_1_0,Copper Set,Set de Cuivre
+KNIGHT_ARMOR_SET_1_1,Heavy Copper Set,Set de Cuivre Lourd
+KNIGHT_ARMOR_SET_1_2,Iron Set,Set de Fer
+KNIGHT_ARMOR_SET_1_3,Heavy Iron Set,Set de Fer Lourd
+KNIGHT_ARMOR_SET_2_0,Bronze Set,Set de Bronze
+KNIGHT_ARMOR_SET_2_1,Heavy Bronze Set,Set de Bronze Lourd
+KNIGHT_ARMOR_SET_2_2,Silver Set,Set d'Argent
+KNIGHT_ARMOR_SET_2_3,Heavy Silver Set,Set d'Argent Lourd
+KNIGHT_ARMOR_SET_3_0,Gold Set,Set d'Or
+KNIGHT_ARMOR_SET_3_1,Heavy Gold Set,Set d'Or Lourd
+KNIGHT_ARMOR_SET_3_2,Mithril Set,Set de Mithril
+KNIGHT_ARMOR_SET_3_3,Heavy Mithril Set,Set de Mithirl Lourd
+KNIGHT_ARMOR_SET_4_0,Orichalcum Set,Set d'Orichalque
+KNIGHT_ARMOR_SET_4_1,Heavy Orichalcum Set,Set d'Orichalque Lourd
+KNIGHT_ARMOR_SET_4_2,Obsidian Set,Set d'Obsidienne
+KNIGHT_ARMOR_SET_4_3,Heavy Obsidian Set,Set d'Obsidienne Lourd

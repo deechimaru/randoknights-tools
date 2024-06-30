@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Rando'Knights Tools</h1>
+    </header>
+    <main>
+        <h2>Figurine part calculator</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Part</th>
+                    <th>Rarity</th>
+                    <th>Rare/Special</th>
+                    <th>Element</th>
+                    <th>Set</th>
+                    <th>Inverted</th>
+                    <th>Value/Multi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <select name="knight-name-rarity" id="knight-name-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <select name="knight-name-part" id="knight-name-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td id="knight-name-value"></td>
+                </tr>
+                <tr>
+                    <td>Trait</td>
+                    <td>
+                        <select name="knight-trait-rarity" id="knight-trait-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <select name="knight-trait-part" id="knight-trait-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td id="knight-trait-value"></td>
+                </tr>
+                <tr>
+                    <td>Job</td>
+                    <td>
+                        <select name="knight-job-rarity" id="knight-job-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <select name="knight-job-part" id="knight-job-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td id="knight-job-value"></td>
+                </tr>
+                <tr>
+                    <td>Face</td>
+                    <td>
+                        <select name="knight-face-rarity" id="knight-face-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <select name="knight-face-part" id="knight-face-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="knight-face-inverted" id="knight-face-inverted"
+                            onchange="calculateLuckValue()">
+                    </td>
+                    <td id="knight-face-value"></td>
+                </tr>
+                <tr>
+                    <td>Body</td>
+                    <td>
+                        <select name="knight-body-rarity" id="knight-body-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <select name="knight-body-part" id="knight-body-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="knight-body-inverted" id="knight-body-inverted"
+                            onchange="calculateLuckValue()">
+                    </td>
+                    <td id="knight-body-value"></td>
+                </tr>
+                <tr>
+                    <td>Helmet</td>
+                    <td>
+                        <select name="knight-helmet-rarity" id="knight-helmet-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-helmet-rare" id="knight-helmet-rare" onchange="calculateLuckValue()"">
+                            <option value=" Normal">Normal</option>
+                            <option value="Rare">Rare</option>
+                            <option value="Special">Special</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-helmet-part" id="knight-helmet-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="knight-helmet-inverted" id="knight-helmet-inverted"
+                            onchange="calculateLuckValue()">
+                    </td>
+                    <td id="knight-helmet-value"></td>
+                </tr>
+                <tr>
+                    <td>Armor</td>
+                    <td>
+                        <select name="knight-armor-rarity" id="knight-armor-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-armor-rare" id="knight-armor-rare" onchange="calculateLuckValue()">
+                            <option value="Normal">Normal</option>
+                            <option value="Rare">Rare</option>
+                            <option value="Special">Special</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-armor-part" id="knight-armor-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="knight-armor-inverted" id="knight-armor-inverted"
+                            onchange="calculateLuckValue()">
+                    </td>
+                    <td id="knight-armor-value"></td>
+                </tr>
+                <tr>
+                    <td>Cape</td>
+                    <td>
+                        <select name="knight-cape-rarity" id="knight-cape-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="None">None</option>
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <select name="knight-cape-part" id="knight-cape-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="knight-cape-inverted" id="knight-cape-inverted"
+                            onchange="calculateLuckValue()">
+                    </td>
+                    <td id="knight-cape-value"></td>
+                </tr>
+                <tr>
+                    <td>Cape color</td>
+                    <td>
+                        <select name="knight-capecolor-rarity" id="knight-capecolor-rarity"
+                            onchange="preparePartLists(); calculateLuckValue();">
+                            <option value="None">None</option>
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <select name="knight-capecolor-part" id="knight-capecolor-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td id="knight-capecolor-value"></td>
+                </tr>
+                <tr>
+                    <td>Mainhand</td>
+                    <td>
+                        <select name="knight-main-rarity" id="knight-main-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-main-rare" id="knight-main-rare" onchange="calculateLuckValue()">
+                            <option value="Normal">Normal</option>
+                            <option value="Rare">Rare</option>
+                            <option value="Special">Special</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-main-part" id="knight-main-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="knight-main-inverted" id="knight-main-inverted"
+                            onchange="calculateLuckValue()">
+                    </td>
+                    <td id="knight-main-value"></td>
+                </tr>
+                <tr>
+                    <td>Main enchant</td>
+                    <td>
+                        <select name="knight-mainenchant-rarity" id="knight-mainenchant-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="None">None</option>
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-mainenchant-rare" id="knight-mainenchant-rare"
+                            onchange="calculateLuckValue()">
+                            <option value="Normal">Normal</option>
+                            <option value="Rare">Rare</option>
+                            <option value="Special">Special</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-mainenchant-part" id="knight-mainenchant-part"
+                            onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="knight-mainenchant-inverted" id="knight-mainenchant-inverted"
+                            onchange="calculateLuckValue()">
+                    </td>
+                    <td id="knight-mainenchant-value"></td>
+                </tr>
+                <tr>
+                    <td>Offhand</td>
+                    <td>
+                        <select name="knight-offhand-rarity" id="knight-offhand-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-offhand-rare" id="knight-offhand-rare" onchange="calculateLuckValue()">
+                            <option value="Normal">Normal</option>
+                            <option value="Rare">Rare</option>
+                            <option value="Special">Special</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-offhand-part" id="knight-offhand-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="knight-offhand-inverted" id="knight-offhand-inverted"
+                            onchange="calculateLuckValue()">
+                    </td>
+                    <td id="knight-offhand-value"></td>
+                </tr>
+                <tr>
+                    <td>Off enchant</td>
+                    <td>
+                        <select name="knight-offenchant-rarity" id="knight-offenchant-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="None">None</option>
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-offenchant-rare" id="knight-offenchant-rare"
+                            onchange="calculateLuckValue()">
+                            <option value="Normal">Normal</option>
+                            <option value="Rare">Rare</option>
+                            <option value="Special">Special</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-offenchant-part" id="knight-offenchant-part"
+                            onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="knight-offenchant-inverted" id="knight-offenchant-inverted"
+                            onchange="calculateLuckValue()">
+                    </td>
+                    <td id="knight-offenchant-value"></td>
+                </tr>
+                <tr>
+                    <td>Pet</td>
+                    <td><select name="knight-pet-rarity" id="knight-pet-rarity"
+                            onchange="preparePartLists(); calculateLuckValue()">
+                            <option value="None">None</option>
+                            <option value="Common">Common</option>
+                            <option value="Uncommon">Uncommon</option>
+                            <option value="Epic">Epic</option>
+                            <option value="Legendary">Legendary</option>
+                            <option value="Mythic">Mythic</option>
+                        </select></td>
+                    <td>
+                        <select name="knight-pet-rare" id="knight-pet-rare" onchange="calculateLuckValue()">
+                            <option value="Normal">Normal</option>
+                            <option value="Special">Shiny</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="knight-pet-part" id="knight-pet-part" onchange="calculateLuckValue()">
+
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="knight-pet-inverted" id="knight-pet-inverted"
+                            onchange="calculateLuckValue()">
+                    </td>
+                    <td id="knight-pet-value"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+        <div class="knight-extra">
+            <label for="knight-shine">Shine</label>
+            <select name="knight-shine" id="knight-shine" onchange="calculateLuckValue()">
+                <option value="None">None</option>
+                <option value="Silver">Silver</option>
+                <option value="Gold">Gold</option>
+                <option value="Red">Red</option>
+                <option value="Black">Black</option>
+            </select>
+        </div>
+        <div class="knight-extra">
+            <label for="knight-lefthanded">Lefthanded?</label>
+            <input name="knight-lefthanded" id="knight-lefthanded" type="checkbox" onchange="calculateLuckValue()">
+        </div>
+        <div class="knight-extra">
+            <label for="knight-modified">Modified?</label>
+            <input name="knight-modified" id="knight-modified" type="checkbox" onchange="calculateLuckValue()">
+        </div>
+        <div class="knight-extra">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Luck value</td>
+                        <td>
+                            <div id="knight-value-luck"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Money value</td>
+                        <td>
+                            <div id="knight-value-money"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Rank</td>
+                        <td>
+                            <div id="knight-value-rank"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="knight-visualizer">
+            <img src="./assets/common/body.png" alt="" id="knight-visual-body">
+            <img src="./assets/uncommon/face.png" alt="" id="knight-visual-face">
+            <img src="./assets/epic/helmet.png" alt="" id="knight-visual-helmet">
+            <img src="./assets/legendary/armor.png" alt="" id="knight-visual-armor">
+            <img src="./assets/mythic/main_hand.png" alt="" id="knight-visual-main">
+            <img src="./assets/common/main_enchant.png" alt="" id="knight-visual-mainenchant">
+            <img src="./assets/common/off_hand.png" alt="" id="knight-visual-offhand">
+            <img src="./assets/common/off_enchant.png" alt="" id="knight-visual-offenchant">
+            <img src="./assets/common/cape.png" alt="" id="knight-visual-cape">
+            <img src="./assets/legendary/familiar.png" alt="" id="knight-visual-pet">
+        </div>
+        <h2>Alphamorus' probability calculator</h2>
+        <iframe src="https://www.desmos.com/calculator/t3wzldyrrh?invertedColors" width="900" height="700"
+            style="border: 1px solid #ccc; text-align: left;" frameborder=0></iframe>
+    </main>
+    <footer>
+        <div id="site-footer">Rando'Knights Tools created by DeechiMaru & Alphamorus. Special thanks to Lectamenop &
+            Useless Corp for sharing game info and assets. Rando'Knights and all images used on this site are the
+            property of Useless Corp.</div>
+    </footer>
+    <script src="./jquery-3.7.1.js"></script>
+    <script src="./knightParts.js"></script>
+    <script src="./knightSets.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
